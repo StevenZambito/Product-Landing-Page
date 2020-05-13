@@ -7,8 +7,134 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
   </head>
+
   <body>
-    <h1 class="hello-world">Hello, World!</h1>
+    <header id="header">
+      <img
+        src="https://1000logos.net/wp-content/uploads/2018/02/Tesla-logo-768x432.png"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#models" class="nav-link">Models</a>
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#availability" class="nav-link">Availability</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="heading-container">
+      <img
+        id="teslacars"
+        src="https://cdn.pocket-lint.com/r/s/970x/assets/images/137055-cars-feature-lead-image1-tlf3a5qp7p-jpg.webp?v1"
+      />
+      <h1 id="heading">The Future of Transportation</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your Email"
+          required
+        />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <div id="section-one">
+      <div class="features-wrapper">
+        <div id="models">
+          <h2 class="section-title">Models</h2>
+          <p class="section-sub-title">
+            There are four models, with a number of different versions to choose
+            from.
+          </p>
+          <ol>
+            <li>
+              <strong>Tesla Model S:</strong> The Model S originally launched in
+              2012 and helped to put Tesla on the map as an automaker. Tesla has
+              continued updating the Model S since its release, and the most
+              recent model has two different versions: the Long Range and
+              Performance, the Standard recently being dropped. The Model S is
+              very much an executive saloon, with similar long and low design
+              lines as you might find on a Jaguar.
+            </li>
+            <li>
+              <strong>Tesla Model 3:</strong> The Model 3 launched in the US in
+              2016 as the affordable alternative to the Model S, with prices now
+              dropping to make it the most affordable Tesla. It is also
+              available in the UK and across Europe. A four-door sedan, the
+              Model 3 launched with a range of options, but that's been refined
+              to just three that are currently available. Ranges are based on
+              combined figures. Autopilot is standard, but the full self-driving
+              upgrade is $5,500/£5,800.
+            </li>
+            <li>
+              <strong>Model X:</strong> Tesla's Model X is the soccer mom or
+              dad's answer to the electric car. It's an SUV-style EV capable of
+              seating seven people, but owes a lot of its design to the Model S,
+              especially with that interior display. It uniquely features rear
+              Falcon Wing doors (think the Delorean in Back to the Future) that,
+              along with the huge touchscreen inside, will make all your kids
+              think you bought a car from the future. There are two models, but
+              three different seating configurations, with additional costs
+              based on your choices for seats. Autopilot is included, the full
+              self-driving upgrade option is $7,000/£5,900.
+            </li>
+            <li>
+              <strong>Model Y:</strong> The Tesla Model Y fills the space
+              between the Model 3 and the Model X, as a compact SUV. It will
+              seat seven, offer plenty of space, but really appeal to those
+              looking for something more affordable. The compact SUV segment is
+              the biggest selling at the moment and isn't hugely populated with
+              electric models, so it's a key target for Tesla.
+            </li>
+          </ol>
+        </div>
+
+        <div id="pricing">
+          <h2 class="section-title">Pricing</h2>
+          <p class="section-sub-title">
+            The price points for Tesla models are as follows:
+          </p>
+          <ul>
+            <li>Tesla Model S Starting price: $79,990 / £77,700</li>
+            <li>Tesla Model 3 Starting price: $39,990 / £38,500</li>
+            <li>Model X Starting price: $84,990 / £82,700</li>
+            <li>Model Y Starting price: $47,000 / £36,000</li>
+          </ul>
+        </div>
+
+        <div id="availability">
+          <h2 class="section-title">Availability</h2>
+          <p class="section-sub-title">
+            You can test drive any of these models here:
+          </p>
+          <ul>
+            <li>Tesla Model S: US, UK, and Europe</li>
+            <li>Tesla Model 3: US, UK and Europe</li>
+            <li>Model X: US, UK, and Europe</li>
+            <li>Model Y: Mid 2020</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="video-container">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/J2U9Hmmpqhc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
